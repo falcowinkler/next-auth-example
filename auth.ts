@@ -21,7 +21,6 @@ import LinkedIn from "next-auth/providers/linkedin"
 import MicrosoftEntraId from "next-auth/providers/microsoft-entra-id"
 import Netlify from "next-auth/providers/netlify"
 import Okta from "next-auth/providers/okta"
-import Passage from "next-auth/providers/passage"
 import Passkey from "next-auth/providers/passkey"
 import Pinterest from "next-auth/providers/pinterest"
 import Reddit from "next-auth/providers/reddit"
@@ -86,7 +85,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         },
       },
     }),
-    Passage,
     Pinterest,
     Reddit,
     Salesforce,
